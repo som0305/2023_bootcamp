@@ -1,0 +1,62 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\ll\sim
+vand_gate
+!i10b 1
+Z1 !s100 eG@7Ee8JUQ_fQR5Q6lRcW2
+Z2 IGgm<nXTXfd@YHlVXo[6F72
+Z3 VbT649VA`UFf?oDBHPfmHC0
+Z4 dC:\vacation\ll\and_gate\sim
+Z5 w1688364993
+Z6 8../src/rtl/and_gate.v
+Z7 F../src/rtl/and_gate.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1688365204.571000
+Z10 !s107 ../testbench/testbench.v|../src/rtl/and_gate.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vnot_gate
+Z12 !s100 iJ5okmN?l`F`OVnV?_ZAb3
+Z13 IIJj0B[BSN45T0n=9kXCk61
+Z14 V4E4EDUVNdKMQmHPAFP[A_2
+Z15 dC:\vacation\ll\sim
+Z16 w1688361247
+Z17 8../src/rtl/not.v
+Z18 F../src/rtl/not.v
+L0 1
+R8
+r1
+31
+Z19 !s108 1688363483.585000
+Z20 !s107 ../testbench/testbench.v|../src/rtl/and.v|../src/rtl/not.v|
+R11
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vtestbench
+!i10b 1
+!s100 9]I4UG_iUT65cHNH8YlgX2
+IW@L1f05Xj2jZTPbn8:COP0
+Z21 VhGfW:390DM[oDMzegDH9`2
+R4
+w1688364687
+Z22 8../testbench/testbench.v
+Z23 F../testbench/testbench.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
