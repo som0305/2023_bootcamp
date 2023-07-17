@@ -3,7 +3,7 @@ module jk_ff(
     input k,
     input clk,
     input n_rst,
-
+ 
     output reg Q
 );
 
