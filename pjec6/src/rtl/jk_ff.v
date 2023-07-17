@@ -1,10 +1,10 @@
 module jk_ff(
-    input j;
-    input k;
-    input clk;
-    input n_rst;
+    input j,
+    input k,
+    input clk,
+    input n_rst,
 
-    output reg Q;
+    output reg Q
 );
 
 always @(posedge clk or negedge n_rst) begin
