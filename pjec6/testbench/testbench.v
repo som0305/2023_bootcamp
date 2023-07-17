@@ -20,7 +20,7 @@ always #5 clk = ~clk;
 initial begin
     clk = 1'b0;
     n_rst = 1'b0;
-    #5
+    #5;
     
     clk= 1'b0;
     n_rst = 1'b1;
