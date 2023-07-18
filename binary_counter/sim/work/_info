@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\vacation\vootcamp\binary_counter\sim
+vb_cnt
+!i10b 1
+Z1 !s100 Yl8[me3Qhk@`2j374BPHz1
+Z2 IioZz^NhoGHHj3c>O9Co4I0
+Z3 Vk6^JK8_bgczVE1m2Y2o2:2
+Z4 dC:\vacation\vootcamp\binary_counter\sim
+Z5 w1689661293
+Z6 8../src/rtl/b_cnt.v
+Z7 F../src/rtl/b_cnt.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1689661660.285000
+Z10 !s107 ../testbench/testbench.v|../src/rtl/b_cnt.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+!s100 JQOe2XHVG]k]>I^E5?ULY2
+I<n;oc2CE@KiX<jka;:G=T1
+VhGfW:390DM[oDMzegDH9`2
+R4
+w1689661657
+8../testbench/testbench.v
+F../testbench/testbench.v
+L0 4
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
