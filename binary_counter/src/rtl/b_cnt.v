@@ -2,7 +2,7 @@ module b_cnt(
     input clk,
     input n_rst,
    
-   output reg [3:0]  count
+   output reg [3:0] count
     
 );
 
