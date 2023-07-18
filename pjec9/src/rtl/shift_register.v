@@ -12,7 +12,7 @@ always @(posedge clk or negedge n_rst) begin
         out[0] <= out[1];
         out[1] <= out[2];
         out[2] <= out[3];
-        out[3] <= 1'b0 ;
+        out[3] <= 4'h0000 ;
     end
     end
     
