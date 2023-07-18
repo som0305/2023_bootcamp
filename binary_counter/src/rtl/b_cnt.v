@@ -1,4 +1,4 @@
-module b_cnt(  //2진 계수기
+module b_cnt( 
     input clk,
     input n_rst,
    
