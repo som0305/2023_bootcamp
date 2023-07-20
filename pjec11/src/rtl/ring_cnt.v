@@ -7,7 +7,7 @@ module ring_cnt(
 
 always @(posedge clk or negedge n_rst) begin
     if(!n_rst) begin
-        count <= 4'h00001;
+        count <= 4'h0001;
     end 
     else begin 
         count <= {count[2:0], count[3]};
