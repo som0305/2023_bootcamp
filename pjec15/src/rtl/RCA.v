@@ -1,8 +1,9 @@
 module RCA(
-    input [31:0] a,b,
+    input [31:0] a,
+    input [31:0] b,
     input cin,
     output [31:0] sum,
-    output cout,
+    output cout
 
 );
 
