@@ -17,10 +17,10 @@ half_addr uut_h1(
 );
 
 half_addr uut_h2(
-    .a(sum1)
+    .a(sum1),
     .b(cin),
     .sum(sum),
-    cout(carry2)
+    .cout(carry2)
 );
 
 assign count = carry1|carry2;

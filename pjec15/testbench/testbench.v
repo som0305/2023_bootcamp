@@ -16,10 +16,10 @@ rca uut_rca_32bit(
     .cout(cout)
 );
 
-initial begin(
+initial begin();
     cin = 1'b0;
     a=32'h00000005;
-    b = 32'b00000002;
+    b = 32'h00000002;
     #10;
 
     a = 32'h0000000f;
@@ -37,5 +37,7 @@ initial begin(
 
 
     $stop;
-);
+end
+
+endmodule 
 
