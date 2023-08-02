@@ -6,9 +6,8 @@ reg cin;
 wire [31:0] sum;
 wire cout;
 
-always #5 clk = ~clk;
 
-rca uut_rca_32bit(
+RCA uut_rca_32bit(
     .a(a),
     .b(b),
     .cin(cin),
@@ -16,9 +15,9 @@ rca uut_rca_32bit(
     .cout(cout)
 );
 
-initial begin();
+initial begin
     cin = 1'b0;
-    a=32'h00000005;
+    a = 32'h00000005;
     b = 32'h00000002;
     #10;
 
@@ -27,8 +26,8 @@ initial begin();
     #10;
 
     cin = 1'b1;
-    a=32'h00000008;
-    b=32'h00000005;
+    a = 32'h00000008;
+    b = 32'h00000005;
     #10;
 
     a = 32'h10000fff;

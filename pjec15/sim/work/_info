@@ -3,42 +3,80 @@ K3
 13
 cModel Technology
 Z0 dC:\vacation\vootcamp\pjec15\sim
-vhalf_addr
+vfull_addr
 !i10b 1
-!s100 1[9K_YAQkWeA2>STGJ96C2
-IfUNIBTIWgX_ZZT^gLbF5g2
-VK7V2h]2P[?`HY2WcFVAaD2
-Z1 dC:\vacation\vootcamp\pjec15\sim
-w1690869324
-8../src/rtl/half_addr.v
-F../src/rtl/half_addr.v
+Z1 !s100 ncR`EXOobg^S^l??^cRD;0
+Z2 I]=?BKSC3PHT`S`bAdch933
+Z3 V<[GodXd`j<Jn4hnZi07aU0
+Z4 dC:\vacation\vootcamp\pjec15\sim
+Z5 w1690940986
+Z6 8../src/rtl/full_addr.v
+Z7 F../src/rtl/full_addr.v
 L0 1
-Z2 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 !s85 0
 31
-Z3 !s108 1690940952.062000
-Z4 !s107 ../testbench/testbench.v|../src/rtl/half_addr.v|../src/rtl/full_addr.v|../src/rtl/RCA.v|
-Z5 !s90 -reportprogress|300|-f|run.f|
+Z9 !s108 1690941416.781000
+Z10 !s107 ../testbench/testbench.v|../src/rtl/half_addr.v|../src/rtl/full_addr.v|../src/rtl/RCA.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vhalf_addr
+!i10b 1
+Z12 !s100 1[9K_YAQkWeA2>STGJ96C2
+Z13 IfUNIBTIWgX_ZZT^gLbF5g2
+Z14 VK7V2h]2P[?`HY2WcFVAaD2
+R4
+Z15 w1690869324
+Z16 8../src/rtl/half_addr.v
+Z17 F../src/rtl/half_addr.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
 !s101 -O0
 o-O0
 vRCA
 !i10b 1
-!s100 Ffn_Xe<kA;HJkanDaBOSb3
-If[SCN^N0h9BL9jPaecN6;3
-Vmb;1:H^_]cZKDC1@3:j`92
-R1
-w1690940836
-8../src/rtl/RCA.v
-F../src/rtl/RCA.v
+Z18 !s100 Ffn_Xe<kA;HJkanDaBOSb3
+Z19 If[SCN^N0h9BL9jPaecN6;3
+Z20 Vmb;1:H^_]cZKDC1@3:j`92
+R4
+Z21 w1690940836
+Z22 8../src/rtl/RCA.v
+Z23 F../src/rtl/RCA.v
 L0 1
-R2
+R8
 r1
 !s85 0
 31
-R3
-R4
-R5
+R9
+R10
+R11
 !s101 -O0
 o-O0
-n@r@c@a
+Z24 n@r@c@a
+vtestbench
+!i10b 1
+!s100 <CeTDLf^HjHLYfU74cF>T2
+Ig3nSWY@IWoU1a>]7Dl>X10
+Z25 VhGfW:390DM[oDMzegDH9`2
+R4
+w1690941376
+Z26 8../testbench/testbench.v
+Z27 F../testbench/testbench.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
