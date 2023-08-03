@@ -1,8 +1,8 @@
 module RCA_4bit(
     input [3:0] a, b,
-    cin,
+    input cin,
     output [3:0]sum,
-    cout
+    output cout
 );
 
 wire [2:0] carry;
