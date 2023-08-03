@@ -6,5 +6,4 @@ module half_addr(
 
 assign sum = a ^ b;
 assign cout = a & b;
-
 endmodule
