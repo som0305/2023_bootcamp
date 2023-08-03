@@ -38,7 +38,6 @@ RCA_8bit uut_RCA04(
     .cin(carry[2]),
     .sum(sum[31:24]),
     .cout(out)
-
 );
 
 endmodule 
