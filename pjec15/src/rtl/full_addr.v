@@ -1,6 +1,5 @@
 module full_addr(
-    input [31:0] a,
-    input [31:0] b, 
+    input [31:0] a,b, 
     input cin,
     output [31:0] sum, 
     output cout
