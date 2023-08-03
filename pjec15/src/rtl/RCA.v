@@ -9,14 +9,14 @@ module RCA(
 
 wire [2:0] carry;
 
-RCA_8bit RCA01(
+RCA_8bit uut_RCA01(
     .a(a[7:0]),
     .b(b[7:0]),
     .sum(sum1),
     .cout(carry[0])
 );
 
-RCA_8bit RCA02(
+RCA_8bit uut_RCA02(
     .a(a[15:8]),
     .b(b[15:8]),
     .cin(carry[0]),
@@ -24,7 +24,7 @@ RCA_8bit RCA02(
     .cout(carry[1])
 );
 
-RCA_8bit RCA03(
+RCA_8bit uut_RCA03(
     .a(a[23:16]),
     .b(b[23:16]),
     .cin(carry[1]),
@@ -32,7 +32,7 @@ RCA_8bit RCA03(
     .cout(carry[2])
 );
 
-RCA_8bit RCA04(
+RCA_8bit uut_RCA04(
     .a(a[31:24]),
     .b(b[31:24]),
     .cin(carry[2]),
