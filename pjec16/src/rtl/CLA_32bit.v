@@ -5,7 +5,11 @@ module CLA_32bit(
     output cout
 );
 
-wire carry;
+wire [2:0] carry;
+
+
+
+
 
 
 
