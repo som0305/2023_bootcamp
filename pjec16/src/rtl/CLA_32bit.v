@@ -1,4 +1,4 @@
-module CL_32bit(
+module CLA_32bit(
     input [31:0] a, b,
     input cin,
     output [31:0] sum,
@@ -6,4 +6,6 @@ module CL_32bit(
 );
 
 wire carry;
+
+
 
