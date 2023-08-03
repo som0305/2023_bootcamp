@@ -3,7 +3,7 @@ module RCA_8bit(
     input [7:0] b,
     input cin,
     output [7:0] sum,
-    output cout,
+    output cout
 );
 
 wire carry;

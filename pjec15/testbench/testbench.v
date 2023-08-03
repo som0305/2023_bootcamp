@@ -1,13 +1,13 @@
 module testbench();
 
-reg [31:0] a;
-reg [31:0] b;
+reg [3:0] a;
+reg [3:0] b;
 reg cin;
-wire [31:0] sum;
+wire [3:0] sum;
 wire cout;
 
 
-RCA uut_rca_32bit(
+RCA_4bit uut_rca_32bit(
     .a(a),
     .b(b),
     .cin(cin),
@@ -17,7 +17,16 @@ RCA uut_rca_32bit(
 
 initial begin
     cin = 1'b0;
-    a = 32'h00000005;
+
+    a = 4'b0000;
+    b = 4'b0001;
+    #10
+
+    cin = 1'b1;
+    a=4'b0011;
+    b=4'b0110;
+    #10;
+   /* a = 32'h00000005;
     b = 32'h00000002;
     #20;
 
@@ -32,7 +41,7 @@ initial begin
 
     a = 32'h10000fff;
     b = 32'h0000ffff;
-    #20
+    #20*/
 
 
     $stop;

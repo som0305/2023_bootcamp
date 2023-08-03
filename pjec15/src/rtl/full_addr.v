@@ -23,6 +23,6 @@ half_addr uut_h2(
     .cout(carry2)
 );
 
-assign count = carry1|carry2;
+assign cout = carry1|carry2;
 
 endmodule

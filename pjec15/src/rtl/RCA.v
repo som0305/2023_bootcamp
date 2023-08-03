@@ -12,7 +12,8 @@ wire [2:0] carry;
 RCA_8bit uut_RCA01(
     .a(a[7:0]),
     .b(b[7:0]),
-    .sum(sum1),
+    .cin(cin),
+    .sum(sum[7:0]),
     .cout(carry[0])
 );
 
@@ -37,7 +38,9 @@ RCA_8bit uut_RCA04(
     .b(b[31:24]),
     .cin(carry[2]),
     .sum(sum[31:24]),
-    .cout(out)
+    .cout(cout)
 );
+
+
 
 endmodule 
