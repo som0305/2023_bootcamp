@@ -50,6 +50,5 @@ endmodule
     .cout(carry[0])
 ); */
 
-//RCA_4bit RCA_4bit_1( .a(a[3:0]), .b(b[3:0]), .cin(cin), .sum(sum[3:0]), .cout(carry));
 
 
