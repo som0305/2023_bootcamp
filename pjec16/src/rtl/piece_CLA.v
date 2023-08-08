@@ -1,5 +1,5 @@
 module piece_CLA(
-    input [7:0] g,
+    input [7:0] g, 
     input [7:0] p,
     input cin,
 
