@@ -1,4 +1,3 @@
-
 ../src/rtl/full_addr.v
 ../src/rtl/CLA_32bit.v
 ../src/rtl/CLA_8bit.v
