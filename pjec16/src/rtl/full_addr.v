@@ -1,10 +1,10 @@
 module full_addr(
-    input a, b, ci,
-    output s, g, p
+    input a, b, cin,
+    output sum, g, p
 );
 
-assign s = p^ci;
+assign sum = p ^ cin;
 assign g = a & b;
-assign p = a^b;`
+assign p = a ^ b;
 
 endmodule 

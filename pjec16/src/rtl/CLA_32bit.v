@@ -19,7 +19,7 @@ CLA_8bit CLA_8bit_2(
     .a(a[15:8]),
     .b(b[15:8]),
     .cin(carry[0]),
-    .sum(sum[15:0]),
+    .sum(sum[15:8]),
     .cout(carry[1])
 );
 
@@ -40,15 +40,3 @@ CLA_8bit CLA_8bit_4(
 );
 
 endmodule
-
-
-/*RCA_8bit uut_RCA01(
-    .a(a[7:0]),
-    .b(b[7:0]),
-    .cin(cin),
-    .sum(sum[7:0]),
-    .cout(carry[0])
-); */
-
-
-
