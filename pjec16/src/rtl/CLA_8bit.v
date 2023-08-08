@@ -1,5 +1,6 @@
 module CLA_8bit(
-    input [7:0] a, b,
+    input [7:0] a, 
+    input [7:0] b,
     input cin,
     output [7:0] sum,
     output cout 
