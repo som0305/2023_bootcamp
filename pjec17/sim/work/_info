@@ -1,0 +1,82 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\vacation\vootcamp\pjec17\sim
+vfull_addr
+!i10b 1
+Z1 !s100 PLj24Kcf;JRW6DWbUMkX42
+Z2 IU69;4ZCkUg]3;<_MFig;40
+Z3 VmlgdR`1VGURmn]:FZP@z22
+Z4 dC:\vacation\vootcamp\pjec17\sim
+Z5 w1691550015
+Z6 8../src/rtl/full_addr.v
+Z7 F../src/rtl/full_addr.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1691550559.046000
+Z10 !s107 ../testbench/testbench.v|../src/rtl/sub.v|../src/rtl/full_addr.v|../src/rtl/RCA_4bit.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vRCA_4bit
+!i10b 1
+Z12 !s100 ef2RXTLFX<?a]MQh6^zN72
+Z13 InC5H2mB`WnZ3JdKekKHRz1
+Z14 V`IPOfOzSJIZhkXIHXB^Uz1
+R4
+Z15 w1691549883
+Z16 8../src/rtl/RCA_4bit.v
+Z17 F../src/rtl/RCA_4bit.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+Z18 n@r@c@a_4bit
+vsub
+!i10b 1
+Z19 !s100 eUTdgE8NP_PZ8Eabfz;X72
+Z20 I@Ia@8O3LN=Al3LTVUUP<A3
+Z21 VL:RQihBR5AmJZReI55Cg^2
+R4
+Z22 w1691548595
+Z23 8../src/rtl/sub.v
+Z24 F../src/rtl/sub.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z25 !s100 JcIF_c]1BLmPNL`PWC4=m0
+Z26 IeH2FN_NM@Y_XOZY:?EWgC2
+Z27 VhGfW:390DM[oDMzegDH9`2
+R4
+Z28 w1691550532
+Z29 8../testbench/testbench.v
+Z30 F../testbench/testbench.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0

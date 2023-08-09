@@ -4,7 +4,13 @@ reg cin;
 wire [3:0] sum;
 wire cout;
 
-RCA_4bit rca_4bit(.a(a), .b(b), .cin(cin), .cout(cout), sum(sum));
+RCA_4bit rca_4bit(
+    .a(a), 
+    .b(b), 
+    .cin(cin), 
+    .cout(cout), 
+    .sum(sum)
+);
 
 initial begin
     cin = 1'b0;
@@ -13,10 +19,10 @@ initial begin
     #10;
 
     a = 4'b0110;
-    b = 4'b0011;
+    b = 4'b1000;
     #10
 
-    cin = 1'b0;
+    cin = 1'b1;
     a = 4'b0110;
     b = 4'b1010;
     #10;
@@ -25,7 +31,7 @@ initial begin
     b = 4'b0011;
     #10;
 
-    #stop;
+    $stop;
 end
 
 
