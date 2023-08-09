@@ -15,4 +15,5 @@ full_addr uut_FA4( .a(a[3]), .b(b[3]), .cin(carry[2]), .sum(sum[3]), .cout(cout)
 
 sub uut_s_bar( .bar(bar), .s_bar(s_bar));
 
+
 endmodule 
